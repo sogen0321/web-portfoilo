@@ -8654,7 +8654,8 @@ h1, h2, h3, h4, h5,
         width: 130px; }
 
 .ftco-about .counter-wrap .text p {
-  font-size: 20px; }
+  font-size: 20px;
+　margin:0px }
   .ftco-about .counter-wrap .text p span {
     font-weight: 400;
     color: #000000; }
@@ -8958,7 +8959,10 @@ h1, h2, h3, h4, h5,
           max-width: 100%;
           opacity: 1; }
           .project.img-2 .text span {
-            color: rgba(255, 255, 255, 0.8); } }
+            color: rgba(255, 255, 255, 0.8); } 
+            .project.img.ftco-animate.d-flex.justify-content-center.align-items-center.fadeInUp.ftco-animated {
+              margin-bottom: 5px;
+            }}
   .project .overlay {
     position: absolute;
     top: 0;
@@ -8976,7 +8980,7 @@ h1, h2, h3, h4, h5,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .project .overlay {
-        opacity: .2; } }
+        opacity: .7; } }
   .project .text {
     max-width: 80%;
     z-index: 1;
@@ -9678,4 +9682,7 @@ textarea.form-control {
   width: 950px;
   margin: auto;
   text-align: left;
+}
+.notes{
+  font-size: 12px;
 }
