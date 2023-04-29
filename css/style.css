@@ -55,6 +55,7 @@ article {
     display: block;
     margin: 0 auto;
     line-height: 1.9;
+    overflow: hidden;
   }
 aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -9692,7 +9693,7 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
     
-/*追加*/
+/*///////////////////// 追加 /////////////////////////*/
 .inner {
   width: 1024px;
   margin: 0 auto;
@@ -9844,6 +9845,8 @@ textarea.form-control {
 #nav-toggle span:nth-child(3) {
   top: 22px;
 }
+/*///////////////SP/////////////////////*/
+
 @media screen and (max-width: 640px) {
   #top-head,
   .inner {
@@ -9866,6 +9869,10 @@ textarea.form-control {
       height: 56px;
       z-index: 999;
       position: relative;
+  }
+  .navbar-brand{
+    left: 15px;
+    top: 10px;
   }
   #top-head.fixed .logo,
   #top-head .logo {
