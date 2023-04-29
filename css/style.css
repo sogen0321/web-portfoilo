@@ -54,7 +54,6 @@ html {
 article {
     display: block;
     margin: 100px auto;
-    text-align: center;
     line-height: 1.9;
   }
 aside, figcaption, figure, footer, header, hgroup, main, nav, section {
