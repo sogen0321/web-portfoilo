@@ -53,7 +53,7 @@ html {
   
 article {
     display: block;
-    margin: 100px auto;
+    margin: 0 auto;
     line-height: 1.9;
   }
 aside, figcaption, figure, footer, header, hgroup, main, nav, section {
