@@ -3,6 +3,25 @@
  	easing: 'slide'
  });
 
+ // Burger Menu
+   (function($) {
+    $(function() {
+        var $header = $('#top-head');
+        // Nav Fixed
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 350) {
+                $header.addClass('fixed');
+            } else {
+                $header.removeClass('fixed');
+            }
+        });
+        // Nav Toggle Button
+        $('#nav-toggle').click(function(){
+            $header.toggleClass('open');
+        });
+    });
+})(jQuery);
+
 (function($) {
 
 	"use strict";
@@ -40,27 +59,6 @@
 	// Scrollax
    $.Scrollax();
 
-
-
-   // Burger Menu
-	var burgerMenu = function() {
-
-		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
-
-			event.preventDefault();
-
-			if ( $('#ftco-nav').is(':visible') ) {
-				$(this).removeClass('active');
-			} else {
-				$(this).addClass('active');	
-			}
-
-			
-			
-		});
-
-	};
-	burgerMenu();
 
 
 	var onePageClick = function() {
